@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Switch</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: white;
+        display: flex;
+      }
+
+      .container {
+        margin: 0 auto;
+        padding-top: 10%;
+      }
+
+      .image {
+        text-align: center;
+      }
+
+      p {
+        font-size: 2.5rem;
+        font-weight: bold;
+        line-height: 3rem;
+      }
+    </style>
+
+    <div class="container">
+      <p>
+        Turn the light on and off <br />
+        by clicking the bulb!
+      </p>
+      <div class="image">
+        <img
+          id="myImage"
+          onclick="changeImage()"
+          src="img/OffBulb.jpg"
+          alt="Turn of white bulb"
+        />
+      </div>
+    </div>
+
+    <script src="/Pirci/events/light-switch/light-switch.js"></script>
+  </body>
+</html>
